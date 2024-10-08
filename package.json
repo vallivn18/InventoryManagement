@@ -4,7 +4,8 @@
   "description": "A simple CRUD application using MongoDB Atlas and Node.js",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node api/index.js"
+    
   },
   "dependencies": {
     "body-parser": "^1.20.3",
