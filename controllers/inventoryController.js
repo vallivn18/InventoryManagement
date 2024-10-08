@@ -7,7 +7,7 @@ const Inventory = require('../models/inventoryModel');
 exports.getAllItems = async (req, res) => {
   try {
     const items = await Inventory.find();
-    res.render('index', { items });
+    res.render('view_index', { items });
   } catch (error) {
     console.error(error);
     res.status(500).send('Server Error');
